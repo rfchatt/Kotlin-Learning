@@ -6,6 +6,10 @@
 
 ---
 
+# Practice N-001
+### Questions
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/00b820ee-bdfd-4320-9ea1-e181978e837f" />
+
 # Practice N-002
 ### Questions
 <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/c7cefde5-4639-445a-8c2d-6490c2271a19" />
