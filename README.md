@@ -6,4 +6,4 @@
 
 ### Practice N-003
 # Questions
-<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/6c8cad04-166a-48ee-9f67-ace7996b01da" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/6c8cad04-166a-48ee-9f67-ace7996b01da" />
