@@ -8,7 +8,7 @@
 
 # Practice N-002
 ### Questions
-<img width="791" height="917" alt="image" src="https://github.com/user-attachments/assets/c7cefde5-4639-445a-8c2d-6490c2271a19" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/c7cefde5-4639-445a-8c2d-6490c2271a19" />
 
 # Practice N-003
 ### Questions
