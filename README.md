@@ -17,3 +17,7 @@
 # Practice N-003
 ### Questions
 <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/7f5529ff-8726-4253-9172-d3051e4eaac8" />
+
+# Practice N-004
+### Questions
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/d7ce7b1c-bba6-41d9-b023-a583edbfa064" />
