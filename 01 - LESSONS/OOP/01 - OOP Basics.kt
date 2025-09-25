@@ -118,6 +118,13 @@ var smartPhoneDevice = smartDevice() // Accessible seulement dans le même modul
 
 // --------------------------------------------------------------------
 
+// ReadWriteProperty & ReadOnlyProperty 
+
+// --------------------------------------------------------------------
+
+
+
+
 
 
 
