@@ -74,15 +74,49 @@ class smartTvDevice(deviceName: String, deviceCategory: String) :
 
 // Modificateur de visibilité 
 
-// [4 types] : public - private - protected - intern
+// [4 types] : public - private - protected - internal
 
-open class smartTvDevice(name = deviceName, category = deviceCategory) {
-  
-private var deviceStatut = "online"
-  
+
+// [public] => Accessible partout 
+class smartDevice {
+    public var deviceStatut = "online"
+}
+var smartPhoneDevice = smartDevice()
+println(smartPhoneDevice.deviceStatut) // online ✔️
+
+
+// [private] => Accessible uniquement dans la classe
+class smartDevice {
+  private var deviceStatut = "offline"
+}
+var smartPhoneDevice = smartDevice() 
+println(smartPhoneDevice.deviceStatut) // ERREUR : inaccessible proprieté ✖️
+
+
+// [protected] => Accessible dans la classe et ses sous-classes (Héritier) 
+open class smartDevice {
+    protected var deviceStatut = "online"
+    protected fun allumerDevice() {
+        println("Device Allumée !")
+    }
+}
+class smartPhoneDevice : smartDevice() {
+    fun afficher() {
+        println(deviceStatut) // "online" ✔️| accessible dans la sous-classe
+        allumerDevice() // "Device Allumée" ✔️| accessible dans la sous-classe
+    }
 }
 
 
+// [internal] => Accessible dans la même Module
+// Module : un ensemble de fichiers Kotlin compilés ensemble (projet, librairie..)
+internal class smartDevide {
+  internal var deviceStatut = "offline"
+}
+var smartPhoneDevice = smartDevice() // Accessible seulement dans le même module
+
+
+// --------------------------------------------------------------------
 
 
 
